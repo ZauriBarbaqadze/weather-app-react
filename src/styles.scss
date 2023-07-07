@@ -1,0 +1,72 @@
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(37, 37, 37);
+
+  h1 {
+    color: #fff;
+  }
+}
+.main {
+  width: 340px;
+  align-self: center;
+  position: relative;
+  border-radius: 30px;
+  height: 400px;
+  background-color: #157a6e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  text-align: center;
+  input {
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+  }
+  .view {
+    font-size: 70px;
+    margin-top: 50px;
+    color: #fff;
+  }
+  .title {
+    color: #fff;
+    font-size: 26px;
+  }
+  .MoreInfo {
+    width: 80%;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .wind {
+      color: #157a6e;
+      font-size: 10px;
+    }
+    .humidity {
+      color: #157a6e;
+      font-size: 10px;
+    }
+    .temp {
+      color: #157a6e;
+      font-size: 10px;
+    }
+  }
+  .createdBy {
+    color: #a5a5a5;
+    font-size: 12px;
+    position: absolute;
+    bottom: 5px;
+  }
+}
